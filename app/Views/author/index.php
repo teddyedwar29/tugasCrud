@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col">
             <h1 class="mt-2">Daftar Author</h1>
-            <a href="/author/create" class="btn btn-primary mb-4 mt-3">Tambah Data</a>
+            <a href="/author/create" class="btn btn-primary mb-4 mt-3">Tambah Data Baru</a>
             <form action="<?= base_url("author") ?>" method="POST">
                 <?= csrf_field(); ?>
                 <!-- <div class="col-6">
